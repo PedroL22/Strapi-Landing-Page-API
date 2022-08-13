@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_text_grids",
+  "info": {
+    "displayName": "text-grid",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 455,
+      "minLength": 5,
+      "required": true
+    }
+  }
+}
